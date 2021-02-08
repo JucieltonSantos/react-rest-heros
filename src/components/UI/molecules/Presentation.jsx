@@ -36,7 +36,7 @@ const Presentation = () => {
               <Title label='Pesquise agora seus maiores Hérois pelo Nome: ' />
               <Paragraph label='Tudo sobre seu herói favorito em um click!' />
               <div>
-                <input className='form-control' ref={textInputName} /> <br />
+                <input className='form-control' placeholder='exemplo: superman' ref={textInputName} /> <br />
                 <button className='btn btn-dark' onClick={handleClickName}>
                   Buscar
                 </button>
@@ -46,7 +46,7 @@ const Presentation = () => {
           <Col>
             <div>
               <BsChevronDoubleUp className='h1' /> <br />
-              <Title label='Pesquise agora seus maiores Hérois por Número e Poder:' />
+              <Title label='Pesquise agora seus maiores Hérois por Número:' />
               <Paragraph label='Conhecer mais sobre seus hérois nunca foi tão fácil!' />
 
               <input className='form-control' placeholder='Número do Heroi:' type='number' min='1' max='731' ref={textInputPower} /><br />
